@@ -51,12 +51,10 @@
     {
       "group": "Sources",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "sources/intercom",
+        "sources/github",
+        "sources/reddit",
+        "sources/zendesk"
       ]
     }
   ]
