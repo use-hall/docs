@@ -28,11 +28,11 @@
     }
   ],
   "navigation": [
-    { "group": "Optimizing for search engines", "pages": ["seo"] },
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart", "development"]
     },
+    { "group": "Advanced", "pages": ["seo"] },
     {
       "group": "Sources",
       "pages": [
