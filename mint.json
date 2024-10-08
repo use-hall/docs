@@ -15,22 +15,10 @@
       "to": "#07C983"
     }
   },
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Channels",
+      "pages": ["channels/discord", "channels/slack", "channels/support-forum"]
     },
     {
       "group": "Advanced",
