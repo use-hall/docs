@@ -18,7 +18,14 @@
   "navigation": [
     {
       "group": "Channels",
-      "pages": ["channels/discord", "channels/slack", "channels/support-forum"]
+      "pages": [
+        {
+          "group": "Discord",
+          "pages": ["nchannels/discord"]
+        },
+        "channels/slack",
+        "channels/support-forum"
+      ]
     },
     {
       "group": "Advanced",
