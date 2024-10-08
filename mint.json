@@ -21,7 +21,7 @@
       "pages": [
         {
           "group": "Discord",
-          "pages": ["nchannels/discord"]
+          "pages": ["channels/discord"]
         },
         "channels/slack",
         "channels/support-forum"
