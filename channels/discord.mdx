@@ -3,21 +3,41 @@ title: 'Discord'
 description: 'Display inline code and code blocks'
 ---
 
-The Discord channel works by
+The Discord channel integration in Hall works by syncing conversation threads from specific Discord channels into your Hall community site.
 
 ## Syncing Discord channels
 
-[Discord forum channels](https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ)
-
-[Discord text channels](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels)
+Hall supports syncing from [Discord Forum channels](https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ) and [Discord Text channels](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels).
 
 To sync channels from Discord, navigate to [**Channels** in the admin dashboard](https://dashboard.usehall.com/channels), then select:
 1. **Manage** for Discord.
 2. Go to the **Synced Discord channels** section.
 3. Click **Add a channel**.
-4. Select the channels you wish to sync.
+4. Select the Forum or Text channels you wish to sync.
 
-## Automatic message Syncing
+### Discord Forum channels
+
+Discord Forum channels](https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ) are self-contained threads that enable the discussion of topics. As all replies to a message in a Forum channel as self-contained, any replies will be automatically synced as a post in Hall.
+
+#### Sync behavior
+
+- The **post title**, **post content**, and any **attachments** are synced with Hall.
+- **Tags** and **Reactions** are currently not synced.
+- Posts deleted in Discord are automatically deleted in Hall.
+
+### Discord Text channels
+
+[Discord Text channels](https://support.discord.com/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels) are general chat message channels.
+
+Hall will not sync a message sent in a text channel unless it has been created into a **thread**. This ensures that all relevant replies made in a thread can be synced as replies in Hall.
+
+#### Sync behavior
+
+- The **thread title**, **post content**, and any **attachments** are synced with Hall.
+- **Reactions** are currently not synced.
+- Deleted messages in Discord are automatically deleted in Hall.
+
+## Automatic message syncing
 
 fasdfas
 
