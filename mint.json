@@ -32,7 +32,7 @@
       "group": "Get Started",
       "pages": ["introduction", "quickstart", "development"]
     },
-    { "group": "Advanced", "pages": ["seo"] },
+    { "group": "Advanced", "pages": ["custom-domains", "seo"] },
     {
       "group": "Sources",
       "pages": [
