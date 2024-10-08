@@ -27,7 +27,7 @@ When Google's search crawler next visits your Hall site, it will automatically f
 
 You can also manually submit your sitemap to Google through the [Google Search Console](#using-google-search-console).
 
-After adding your community site as a new property in [Google Search Console](#using-google-search-console), you can submit your sitemap by navigating to the **Sitemaps report**.
+After adding your community site as a new property in [Google Search Console](#using-google-search-console), you can submit your sitemap by navigating to the **Sitemaps report** page in Search Console.
 
 Simply copy your sitemap's URL (eg. `example.hall.community/sitemap.xml`) and then click **Add**.
 
@@ -44,7 +44,7 @@ Your site's file can be accessed from the `/robots.txt` path. For example, it ca
 
 Every Hall community site automatically supports special [structured data formats](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) that enables Google to display pages as enriched search results.
 
-Specifically, Hall currently supports the `DiscussionForumPosting` and `QAPage` structured data schemas documented by Google.
+Specifically, Hall currently supports the discussion forum post, Q&A page, and sitelinks search box structured data schemas documented by Google.
 
 ### Discussion forums
 
@@ -70,15 +70,17 @@ You can read more about Q&A pages in [Google's documentation](https://developers
 
 ### Sitelinks search box
 
+The sitelinks search box structured data enables people to perform a search on your community site directly from Google search results.
 
+You can read more about Q&A pages in [Google's documentation](https://developers.google.com/search/docs/appearance/structured-data/sitelinks-searchbox).
 
 ## Using Google Search Console
-
-<Info>This feature is currently only available when a [custom domain](/custom-domains) has been configured for your community site.</Info>
 
 Google Search Console is a free tool provided by Google that helps you measure search traffic and improve performance in search results.
 
 You can sign up and add your community site in Search Console to see the impact of Hall's SEO features and better understand how your site is performing in search results.
+
+<Info>This feature is currently only available when a [custom domain](/custom-domains) has been configured for your community site.</Info>
 
 To get started with Google Search Console, you can [sign up on for free](https://search.google.com/search-console/about).
 
@@ -86,7 +88,10 @@ If you already have an existing account in Search Console, you can [add a new pr
 
 ### Add your site as a property
 
-Once you've signed up, you will need to add your community site as a property. This typically requires you to verify ownership of your domain name via DNS records.
+Once you've signed up, you will need to add your community site as a property.
+You should follow the steps from [Google's documentation](https://support.google.com/webmasters/answer/34592).
+
+This typically requires you to [verify ownership](https://support.google.com/webmasters/answer/9008080) of your domain name via DNS records.
 
 ### Search performance
 
