@@ -21,7 +21,11 @@
       "pages": [
         {
           "group": "Discord",
-          "pages": ["channels/discord", "channels/discord/syncing"]
+          "pages": [
+            "channels/discord",
+            "channels/discord/syncing",
+            "channels/discord/invite-link"
+          ]
         },
         "channels/slack",
         "channels/support-forum"
