@@ -5,7 +5,7 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -30,15 +30,6 @@
     {
       "group": "Advanced",
       "pages": ["custom-domains", "search-engine-optimization"]
-    },
-    {
-      "group": "Sources",
-      "pages": [
-        "sources/intercom",
-        "sources/github",
-        "sources/reddit",
-        "sources/zendesk"
-      ]
     }
   ]
 }
