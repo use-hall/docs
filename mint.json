@@ -7,15 +7,15 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#ef5a3c",
+    "light": "#ef5a3c",
+    "dark": "#ef5a3c"
   },
   "navigation": [
+    {
+      "group": "Getting started",
+      "pages": ["quickstart"]
+    },
     {
       "group": "Channels",
       "pages": [
