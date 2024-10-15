@@ -28,7 +28,7 @@
           ]
         },
         {
-          "group": "Discord",
+          "group": "Slack",
           "pages": [
             "channels/slack",
             "channels/slack/syncing",
