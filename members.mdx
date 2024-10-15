@@ -3,84 +3,48 @@ title: 'Members'
 description: 'Start building awesome documentation in under 5 minutes'
 ---
 
-## Setup your development
+The members page lets you see information about all the people who have signed up to your [community site](/community-site) or made contributions from any of your [connected channels](/channels).
 
-Learn how to update your docs locally and deploy them to the public.
+For each member, you can see:
 
-### Edit and preview
+- **Name**: this is set in a member's profile from your [community site](/community-site). If a member is synced from [Slack](/channels/slack) or [Discord](/channels/discord) this will show their display name from the respective channel.
+- **Email:** this is the email used to sign up to your [community site](/community-site), or the email address attached to their Slack profile if using the [Slack channel](/channels/slack). Emails are not available for the [Discord channel](/channels/discord) as this information is not made available. All email addresses are verified.
+- **Company:** we use third-party data providers to automatically identify the company that member belongs to using the domain of their email address. If a company cannot be determined from their email address, the company will be displayed as _Unknown_.
+- **Joined:** the date that they became a member or made their first contribution.
+- **Last seen:** the date when they were last seen logged in to your [community site](/community-site), or when their last contribution was made.
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+## Recent activity and contributions
 
-### Deploy your changes
+Activity and contributions by members can be viewed by clicking each member.
 
-<AccordionGroup>
+For each member you can see their activity in the **Recent activity** tab:
+- **Pages viewed:** the pages each member has viewed while logged into your [community site](/community-site)
+- **Comments made:** the comments or replies a member has added.
+- **Reactions:** reactions they have added to posts, comments, or replies.
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
+You can also see the posts created by a member in the **Contributions** tab.
 
-</AccordionGroup>
+## Unknown members
 
-## Update your docs
+Unknown members are those who have signed up and verified their email, but have not yet completed their profile information.
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+When signing up, members are not required to complete profile information like setting a name or profile photo. This reduces friction of new members signing up and improves their overall user experience.
 
-<CardGroup>
+Instead, members are required to complete profile information before making contributions.
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
+Unknown members are still displayed in the member count for your community.
 
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
+## Deactivating members
 
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
+Should you wish to remove or "ban" a member from your community, you can deactivate any member at any time.
 
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
+Deactivating a member will hide their profile on content they’ve contributed without removing any of their contributions.
 
-</CardGroup>
+While deactivated, they won’t be able to log in or sign up again to your [community site](/community-site) using their email. Their profile photo will be removed and their name will be displayed as _Deactivated member_ to other members.
+
+To deactivate a member:
+
+Find the member you want to deactivate on the Members page.
+1. Click the **•••** icon, and select **Deactivate**.
+2. Confirm this action by clicking **Deactivate member**.
+3. Members can be reactivated at any time by following the same steps.

@@ -14,11 +14,12 @@
   "navigation": [
     {
       "group": "Getting started",
-      "pages": ["quickstart"]
+      "pages": ["quickstart", "community-site", "channels"]
     },
     {
       "group": "Channels",
       "pages": [
+        "channels/support-forum",
         {
           "group": "Discord",
           "pages": [
@@ -34,8 +35,7 @@
             "channels/slack/syncing",
             "channels/slack/invite-link"
           ]
-        },
-        "channels/support-forum"
+        }
       ]
     },
     {
