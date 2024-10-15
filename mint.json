@@ -44,7 +44,11 @@
     },
     {
       "group": "Advanced",
-      "pages": ["custom-domains", "search-engine-optimization"]
+      "pages": [
+        "custom-domains",
+        "search-engine-optimization",
+        "importing-members"
+      ]
     }
   ]
 }
