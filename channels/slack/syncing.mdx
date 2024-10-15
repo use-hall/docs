@@ -1,0 +1,33 @@
+---
+title: Channel syncing
+description: See how to configure Slack channels to sync with Hall
+---
+
+To sync channels from Slack, navigate to [**Channels** in the admin dashboard](https://dashboard.usehall.com/channels), then select:
+1. **Manage** for Slack.
+2. Go to the **Synced Slack channels** section.
+3. Click **Add a channel**.
+4. Select the Slack channels you wish to sync.
+
+## Sync behavior
+
+Hall will not sync a message sent in a channel unless it has been created into a **thread**. This ensures that all relevant replies made in a thread can be synced as replies in Hall.
+
+- The **thread title**, **post content**, and any **attachments** are synced with Hall.
+- **Reactions** are currently not synced.
+- Deleted messages in Slack are automatically deleted in Hall.
+
+## Automatic message syncing
+
+You can choose to enable or disable automatic syncing of messages with Hall. By default, all Slack threads will be synced with Hall.
+
+To change this setting, navigate to [**Channels** in the admin dashboard](https://dashboard.usehall.com/channels), then select:
+1. **Manage** for Slack.
+2. Go to the **Automatic message syncing** section.
+
+If you disable syncing, messages will have to be manually pushed to Hall.
+
+[Slack workspace admins](https://slack.com/intl/en-au/help/articles/360018112273-Types-of-roles-in-Slack) are able to manually push messages to Hall by:
+1. Clicking the action button **•••** for the message you wish to push.
+2. Selecting the **More message shortcuts…** menu.
+3. Choosing the **Push to community site** action from the Hall Slack app.

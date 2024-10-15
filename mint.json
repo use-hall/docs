@@ -27,7 +27,14 @@
             "channels/discord/invite-link"
           ]
         },
-        "channels/slack",
+        {
+          "group": "Discord",
+          "pages": [
+            "channels/slack",
+            "channels/slack/syncing",
+            "channels/slack/invite-link"
+          ]
+        },
         "channels/support-forum"
       ]
     },
