@@ -39,6 +39,10 @@
       ]
     },
     {
+      "group": "Admin dashboard",
+      "pages": ["members", "companies"]
+    },
+    {
       "group": "Advanced",
       "pages": ["custom-domains", "search-engine-optimization"]
     }
