@@ -62,5 +62,10 @@
         "importing-members"
       ]
     }
-  ]
+  ],
+  "analytics": {
+    "plausible": {
+      "domain": "docs.usehall.com"
+    }
+  }
 }
