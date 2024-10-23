@@ -15,16 +15,16 @@
     {
       "name": "Documentation",
       "url": "quickstart"
-    },
-    {
-      "name": "Integration",
-      "url": "quickstart"
     }
   ],
   "navigation": [
     {
       "group": "Getting started",
       "pages": ["quickstart", "community-site", "channels", "sources"]
+    },
+    {
+      "group": "Community site",
+      "pages": ["community-site", "search", "answer-engine"]
     },
     {
       "group": "Channels",
