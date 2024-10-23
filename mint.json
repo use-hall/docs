@@ -20,11 +20,7 @@
   "navigation": [
     {
       "group": "Getting started",
-      "pages": ["quickstart", "community-site", "channels", "sources"]
-    },
-    {
-      "group": "Community site",
-      "pages": ["community-site", "search", "answer-engine"]
+      "pages": ["quickstart", "channels", "sources"]
     },
     {
       "group": "Channels",
@@ -49,6 +45,10 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Community site",
+      "pages": ["community-site", "search", "answer-engine"]
     },
     {
       "group": "Admin dashboard",
