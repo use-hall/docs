@@ -11,6 +11,16 @@
     "light": "#ef5a3c",
     "dark": "#ef5a3c"
   },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "quickstart"
+    },
+    {
+      "name": "Integration",
+      "url": "quickstart"
+    }
+  ],
   "navigation": [
     {
       "group": "Getting started",
@@ -22,6 +32,7 @@
         "channels/support-forum",
         {
           "group": "Discord",
+          "icon": "discord",
           "pages": [
             "channels/discord",
             "channels/discord/syncing",
@@ -30,6 +41,7 @@
         },
         {
           "group": "Slack",
+          "icon": "slack",
           "pages": [
             "channels/slack",
             "channels/slack/syncing",
