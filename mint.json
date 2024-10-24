@@ -48,7 +48,12 @@
     },
     {
       "group": "Community site",
-      "pages": ["community-site", "search", "answer-engine"]
+      "pages": [
+        "community-site",
+        "search",
+        "answer-engine",
+        "helpfulness-survey"
+      ]
     },
     {
       "group": "Admin dashboard",
