@@ -50,10 +50,12 @@
       "group": "Community site",
       "pages": [
         "community-site",
+        "posts-and-comments",
         "search",
         "answer-engine",
+        "customization",
         "helpfulness-survey",
-        "customization"
+        "moderation"
       ]
     },
     {
