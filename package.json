@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "mintlify dev --port 3333"
+    "dev": "mintlify dev"
   },
   "dependencies": {
     "mintlify": "^4.0.254"
