@@ -19,9 +19,12 @@
   ],
   "navigation": [
     {
+      "group": "Getting started",
+      "pages": ["quickstart"]
+    },
+    {
       "group": "Channels",
       "pages": [
-        "quickstart",
         "channels/support-forum",
         {
           "group": "Discord",
