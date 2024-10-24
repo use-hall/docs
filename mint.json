@@ -20,7 +20,7 @@
   "navigation": [
     {
       "group": "Getting started",
-      "pages": ["quickstart", "channels", "sources"]
+      "pages": ["quickstart"]
     },
     {
       "group": "Channels",
@@ -60,7 +60,7 @@
     },
     {
       "group": "Admin dashboard",
-      "pages": ["members", "companies"]
+      "pages": ["members", "companies", "sources"]
     },
     {
       "group": "Advanced",
