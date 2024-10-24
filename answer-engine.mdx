@@ -1,30 +1,41 @@
 ---
 title: 'Answer engine'
-description: 'Learn how about your community site'
+description: 'Learn how our answer engine works'
 ---
 
-Our powerful answer engine combines posts from across your [channels](/channels), official knowledge and docuemntation from your [sources](/sources), and engagement signals from your [community site](/community-site) to surface accurate answers and relevant content to people.
+Our powerful answer engine combines posts from across your [channels](/channels), official knowledge and documentation from your [sources](/sources), and engagement signals from your [community site](/community-site) to surface accurate answers and relevant posts to people.
 
-The answer engine is used to power [search results](/search)
+The answer engine is used to power:
+- [Search results](/search) we display when someone asks a question.
+- Related posts we show in various places across your [community site](/community-site).
+- Generative answers when someone asks a question in [search](/search).
+- Suggested answers while someone is creating a new post.
 
+The answer engine employs traditional keyword search techniques with retrieval-augmented generation (RAG) large language model (LLM) vector search capabilities. It also has the capability to output reliable generative answers grounded in knowledge from your [sources](/sources).
 
+This approach enables the answer engine to synthesize information from multiple sources to return accurate search results and provide comprehensive answers.
 
+## Accuracy and reliability
 
-## Accuracy
+Generative answers output by the answer engine are only ever based on your [sources](/sources) and the posts that have been created by people in your community. This effectively eliminates hallucinations and inaccurate answers.
 
+The answer engine is able to determine when no relevant information for a question exists, and in these cases will simply respond with _No answer available_.
 
+The search results and generative answers produced by the answer engine are ranked by a number of relevancy signals including the content from your [sources](/sources) and post metadata such as:
+- when a post was created
+- when a discussion was last updated
+- the engagement for a post
+- the status of a post, and if it was solved
+- the author of a post and their contributions
+- the quality of the accepted solution for a post
+- the views and web traffic to a post
 
-afdsfs
+We've developed specialized evaluation frameworks for answering technical product  and support questions. This approach allows us to continuously refine our system and deploy latest research and models, only when it improves accuracy for all customers.
 
+## Privacy and security
 
-Grounded Answers with Citations
-Provides answers based only on your knowledge content, reducing hallucinations.
+The answer engine only retrieves results and generates answers using content that is publicly available. This content is made available to the answer engine either through a connected [channel](/channels) or through a [source](/source) that is accessible on the public internet.
 
+As our answer engine is model agnostic, we work with multiple model providers. This approach enables us to select the best performing model for specific use cases and continously improve our ability to deliver accurate and reliable answers to customers.
 
-## Approach
-
-You need custom evaluations to align AI models. And at kapa.ai, our mission is ot help companies to deploy reliable AI assistants to answer technical product questions.
-
-So we have developed specialized evaluation frameworks for answering technical product questions that go beyond generic metrics, incorporating real-world customer feedback.
-
-This approach allows us to continuously refine our system and deploy latest research and models, only when it improves accuracy for all users of kapa.ai.
+We have contractual agreements with our model providers to ensure data privacy and opt-out of the use of any data processed by model providers for training purposes, where applicable.
