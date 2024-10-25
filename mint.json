@@ -51,7 +51,9 @@
       "pages": [
         "community-site",
         "posts-and-comments",
+        "member-authentication",
         "search",
+        "notifications",
         "answer-engine",
         "customization",
         "helpfulness-survey",
