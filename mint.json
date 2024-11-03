@@ -32,6 +32,7 @@
           "pages": [
             "channels/discord",
             "channels/discord/syncing",
+            "channels/discord/bot-auto-reply",
             "channels/discord/invite-link"
           ]
         },
@@ -41,6 +42,7 @@
           "pages": [
             "channels/slack",
             "channels/slack/syncing",
+            "channels/slack/bot-auto-reply",
             "channels/slack/invite-link"
           ]
         }
